@@ -64,3 +64,5 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
     Variables en el metodo main
     Que valores se deben pasar a los atributos y variables segun el tipo de dato
 
+### Tarea
+1. crear un micro de nombre `demo-taller-20250814`
