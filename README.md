@@ -67,7 +67,7 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
 ### Tarea - 2025-08-18
 1. crea un proyecto de nombre `demo-objetos`
     1. crear los paquetes `[controller, dto, service]`
-2. crear las clases `[PersonaDto, PersonaDto, FacturaDto]`
+2. crear las clases `[PersonaDto, ProductoDto, FacturaDto]`
     1. en la clase `PersonaDto` crear los atributos `[tipoDoc, numeroDoc, nombreCompleto]`
     2. en la clase `ProductoDto` crear los atributos `[nombre, cantidad, valor]`
     3. en la clase `FacturaDto` crear los atributos `[persona, productos]`
