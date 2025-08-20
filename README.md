@@ -87,6 +87,12 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
     1. crear una lista del tipo `FacturaDto` de nombre `faturas`
     2. crar el constructor vacio y dentro inicializar la lista `faturas`
     3. crear el metodo `crearFactura` que reciba como parametros un objeto `PersonaDto` y una lista de `ProductoDto`, dentro del metodo crear un objeto de la clase `FacturaDto` pasar los parametros recibidos y agregar el objeto creado a la lista `faturas`
+6. crea la clase `FacturaController`
+    1. crear el método `main`
+    2. crear un objeto de `PersonaService` y llamar al metodo `crearPersona` 3 veces con datos diferentes
+    3. crear un objeto de `ProductoService` y llamar al metodo `crearProducto` 3 veces con datos diferentes
+    4. crear un objeto `FacturaService` y llamar al metodo `crearFactura`, pasar un objeto `PersondaDto` consultando uno de los creados previamente y la lista de `ProductoDto`
+7. en la clase `FacturaService` crear un metodo `imprimirFacturas` que recorra la lista `faturas` e imprima en la consola, los atributos de `PersonaDto`, recorrer la lista de `Productos` e imprimir los atributos de cada objeto `ProductoDto`, dentro de cada objeto `FacturaDto`.
 
 ### Tarea
 1. crear un micro de nombre `demo-taller-20250814`
