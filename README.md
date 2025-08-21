@@ -97,7 +97,7 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
 
 ## Examenes
 
-### Demo Compra Venta celular
+### Demo Compra Venta Celular
 1. crear un micro de nombre `demo-compraventa-celular`
 2. crear los paquetes de nombre `[controller,dto, service]`
 3. en el paquete `dto` crear las siguientes clases
