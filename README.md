@@ -1,7 +1,6 @@
 # Clases
 En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y `Java - Spring Boot`
 
-
 # git
 	https://es.wikipedia.org/wiki/Git
 	https://es.wikipedia.org/wiki/GitHub
@@ -64,9 +63,9 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
     Variables en el metodo main
     Que valores se deben pasar a los atributos y variables segun el tipo de dato
 
-## Tareas
+## Talleres
 
-### Tarea-2025-08-18
+### Demo Objetos
 1. crea un proyecto de nombre `demo-objetos`
     1. crear los paquetes `[controller, dto, service]`
 2. crear las clases `[PersonaDto, ProductoDto, FacturaDto]`
@@ -98,15 +97,15 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
 
 ## Examenes
 
-### demo-compraventa-celular
+### Demo Compra Venta celular
 1. crear un micro de nombre `demo-compraventa-celular`
 2. crear los paquetes de nombre `[controller,dto, service]`
 3. en el paquete `dto` crear las siguientes clases
     1. `UsuarioDto` con los siguientes atributos `[codigo, nombreCompleto]`
     2. `PersonaDto` con los siguientes atributos `[documento, nombreCompleto]`
     3. `CelularDto` con los siguientes atributos `[marca, modelo, valor]`
-    4. `CompraDto` con los siguientes atributos `[numeroCompra, usuario, celulares]`
-    5. `VentaDto` con los siguientes atributos `[numeroVenta, usuario, persona, celulares]`
+    4. `CompraDto` con los siguientes atributos `[numeroCompra, usuario, celular, cantidad]`
+    5. `VentaDto` con los siguientes atributos `[numeroVenta, usuario, persona, celular, cantidad]`
 
 **En el paquete `service` crear las siguientes clases**
 
@@ -120,5 +119,5 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
     2. crear un metodo de nombre `getAll` que retorne la lista `personas`.
     3. crear un metodo de nombre `getByDocumento` que retorne una `PersonaDto` buscando en la lista `personas` el que coincida por el parametro `documento`.
     4. crear el metodo `createPersona` que reciba como parametros los atributos de la clase `PersonaDto`, crear un objeto y guardarlo en la lista `personas`, pero primero validar que no exista en la lista.
-3. `CompraService` en la cual se deben crear los metodos que me permitan crear una compra, consultar una comprar por los atributos de `[marca, modelo]` de la clase `CelularDto`.
-4. `VentaService` en la cual se deben crear los metodos que me permitan crear una venta, consultar una venat por los atributos de `[marca, modelo]` de la clase `CelularDto`.
+3. `CompraService` en la cual se deben crear los metodos que me permitan crear una compra, consultar una comprar por los atributos de `[marca, modelo]` de la clase `CelularDto`, imprimir todas las compras, imprimir una compra por `numeroCompra`.
+4. `VentaService` en la cual se deben crear los metodos que me permitan crear una venta, consultar una venta por los atributos de `[marca, modelo]` de la clase `CelularDto`, imprimir todas las ventas, imprimir una venta por `numeroVenta`.
