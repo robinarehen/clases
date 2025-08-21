@@ -58,13 +58,15 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
 	Conocer STS, proyectos, paquetes, clases, navegar, abrir y cerrar 
 	Definición de clase
 
-### Atributos
+## Atributos
 [Tipos de datos](https://www.manualweb.net/java/tipos-datos-primitivos-java/)
 
     Variables en el metodo main
     Que valores se deben pasar a los atributos y variables segun el tipo de dato
 
-### Tarea - 2025-08-18
+## Tareas
+
+### Tarea-2025-08-18
 1. crea un proyecto de nombre `demo-objetos`
     1. crear los paquetes `[controller, dto, service]`
 2. crear las clases `[PersonaDto, ProductoDto, FacturaDto]`
@@ -93,3 +95,30 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
     3. crear un objeto de `ProductoService` y llamar al metodo `crearProducto` 3 veces con datos diferentes
     4. crear un objeto `FacturaService` y llamar al metodo `crearFactura`, pasar un objeto `PersondaDto` consultando uno de los creados previamente y la lista de `ProductoDto`
 7. en la clase `FacturaService` crear un metodo `imprimirFacturas` que recorra la lista `faturas` e imprima en la consola, los atributos de `PersonaDto`, recorrer la lista de `Productos` e imprimir los atributos de cada objeto `ProductoDto`, dentro de cada objeto `FacturaDto`.
+
+## Examenes
+
+### demo-compraventa-celular
+1. crear un micro de nombre `demo-compraventa-celular`
+2. crear los paquetes de nombre `[controller,dto, service]`
+3. en el paquete `dto` crear las siguientes clases
+    1. `UsuarioDto` con los siguientes atributos `[codigo, nombreCompleto]`
+    2. `PersonaDto` con los siguientes atributos `[documento, nombreCompleto]`
+    3. `CelularDto` con los siguientes atributos `[marca, modelo, valor]`
+    4. `CompraDto` con los siguientes atributos `[numeroCompra, usuario, celulares]`
+    5. `VentaDto` con los siguientes atributos `[numeroVenta, usuario, persona, celulares]`
+
+**En el paquete `service` crear las siguientes clases**
+
+1. `UsuarioService` con lo siguiente
+    1. crear un atributo de tipo lista de nombre `usuarios` inicializada.
+    2. crear un metodo de nombre `getAll` que retorne la lista `usuarios`.
+    3. crear un metodo de nombre `getByCodigo` que retorne un `UsuarioDto` buscando en la lista `usuarios` el que coincida por el parametro `codigo`.
+    4. crear el metodo `createUsuario` que reciba como parametros los atributos de la clase `UsuarioDto`, crear un objeto y guardarlo en la lista `usuarios`, pero primero validar que no exista en la lista.
+2. `PersonaService` con lo siguiente
+    1. crear un atributo de tipo lista de nombre `personas` inicializada.
+    2. crear un metodo de nombre `getAll` que retorne la lista `personas`.
+    3. crear un metodo de nombre `getByDocumento` que retorne una `PersonaDto` buscando en la lista `personas` el que coincida por el parametro `documento`.
+    4. crear el metodo `createPersona` que reciba como parametros los atributos de la clase `PersonaDto`, crear un objeto y guardarlo en la lista `personas`, pero primero validar que no exista en la lista.
+3. `CompraService` en la cual se deben crear los metodos que me permitan crear una compra, consultar una comprar por los atributos de `[marca, modelo]` de la clase `CelularDto`.
+4. `VentaService` en la cual se deben crear los metodos que me permitan crear una venta, consultar una venat por los atributos de `[marca, modelo]` de la clase `CelularDto`.
