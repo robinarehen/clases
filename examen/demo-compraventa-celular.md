@@ -1,14 +1,18 @@
 # Demo Compra Venta Celular
-1. crear un micro de nombre `demo-compraventa-celular`
-2. crear los paquetes de nombre `[controller,dto, service]`
-3. en el paquete `dto` crear las siguientes clases
-    1. `UsuarioDto` con los siguientes atributos `[codigo, nombreCompleto]`
-    2. `PersonaDto` con los siguientes atributos `[documento, nombreCompleto]`
-    3. `CelularDto` con los siguientes atributos `[marca, modelo, valor]`
-    4. `CompraDto` con los siguientes atributos `[numeroCompra, usuario, celular, cantidad]`
-    5. `VentaDto` con los siguientes atributos `[numeroVenta, usuario, persona, celular, cantidad]`
+1. crear un micro de nombre `demo-compraventa-celular`, crear un nuevo reporitorio del mismo nombre en `GITHUB` y conectarlos.
+2. crear los paquetes de nombre `[controller,dto, service]`.
+
+**En el paquete `dto` crear las siguientes clases**
+> Al terminar el punto 5, guardar y subir los cambios a `GITHUB`
+
+1. `UsuarioDto` con los siguientes atributos `[codigo, nombreCompleto]`
+2. `PersonaDto` con los siguientes atributos `[documento, nombreCompleto]`
+3. `CelularDto` con los siguientes atributos `[marca, modelo, valor]`
+4. `CompraDto` con los siguientes atributos `[numeroCompra, usuario, celular, cantidad]`
+5. `VentaDto` con los siguientes atributos `[numeroVenta, usuario, persona, celular, cantidad]`
 
 **En el paquete `service` crear las siguientes clases**
+> Al terminar cada punto, guardar y subir los cambios a `GITHUB`
 
 1. `UsuarioService` con lo siguiente
     1. crear un atributo de tipo lista de nombre `usuarios` inicializada.
