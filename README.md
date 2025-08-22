@@ -1,7 +1,7 @@
 # Clases
 En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y `Java - Spring Boot`
 
-# git
+## git
 	https://es.wikipedia.org/wiki/Git
 	https://es.wikipedia.org/wiki/GitHub
 	https://es.wikipedia.org/wiki/GitLab
@@ -10,7 +10,7 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
 	https://www.udemy.com/course/git-y-github-desde-cero-a-experto/
 	https://commitizen-tools.github.io/commitizen/
 
-### Temas
+## Temas
 1. Explicar que es git
 2. Instalacion y configuración de git, user.name y user.email
 3. Primeros comandos: init, status, add, commit
@@ -19,15 +19,6 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
 6. conectar repositorio local con el global
 7. comandos push y pull
 8. comando merge
-
-### Tarea 
-1. crear una carpeta de nombre `repo-prueba-20240609`
-2. convertir la carpeta en un repositorio de git
-3. crear 2 archivos de texto con los siguientes nombre `[prueba-1, prueba-2]`
-4. en el archivo de nombre `prueba-1` agrega el siguiente texto `hola mundo`
-5. en el archivo de nombre `prueba-2` agrega el siguiente texto `hola mundo, archivo hecho por Andres o Angeles`
-6. guardar los cambios con los comando aprendidos.
-
 
 # Micro servicios
 [microservicios-spring-boot](https://www.qindel.com/que-son-los-microservicios-spring-boot/#:~:text=%C2%BFQu%C3%A9%20son%20los%20microservicios%20Spring,de%20realizar%20una%20tarea%20espec%C3%ADfica.)
