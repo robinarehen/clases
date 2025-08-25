@@ -26,3 +26,9 @@
     4. crear el metodo `createPersona` que reciba como parametros los atributos de la clase `PersonaDto`, crear un objeto y guardarlo en la lista `personas`, pero primero validar que no exista en la lista.
 3. `CompraService` en la cual se deben crear los metodos que me permitan crear una compra, consultar una comprar por los atributos de `[marca, modelo]` de la clase `CelularDto`, imprimir todas las compras, imprimir una compra por `numeroCompra`.
 4. `VentaService` en la cual se deben crear los metodos que me permitan crear una venta, consultar una venta por los atributos de `[marca, modelo]` de la clase `CelularDto`, imprimir todas las ventas, imprimir una venta por `numeroVenta`, imprimir todas las ventas hechas a una persona consultando por `documento`.
+
+**En el paquete `controller` crear las siguientes clases**
+
+1. `CompraVentaController` con lo siguiente
+    1. crear el metodo `main`
+    2. crear 3 `[usuarios, personas, celulares, compras, ventas]`
