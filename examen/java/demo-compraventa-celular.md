@@ -32,3 +32,5 @@
 1. `CompraVentaController` con lo siguiente
     1. crear el metodo `main`
     2. crear 3 `[usuarios, personas, celulares, compras, ventas]`
+    3. llamar a los metodos imprimir de las clase `[compras, ventas]`
+
