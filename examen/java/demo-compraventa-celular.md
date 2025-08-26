@@ -34,3 +34,8 @@
     2. crear 3 `[usuarios, personas, celulares, compras, ventas]`
     3. llamar a los metodos imprimir de las clase `[compras, ventas]`
 
+**Realizar los siguiente cambios**
+1. En la clase `PersonaDto` agrega un nuevo atributo de nombre `tipoPersona` el cual solo puede recibir los siguientes 3 valors `[INVITADO, PREMIUM, VIP]`
+2. En la clase `UsuarioService` modificar el metodo `createPersona` para agregar a los parametros en nuevo atributo de la clase `PersonaDto`
+3. En la clase `VentaService` modificar los metodos de imprimir
+    1. para que tambien se imprima el nuevo atributo de la clase `PersonaDto`
