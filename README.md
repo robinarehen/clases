@@ -33,7 +33,7 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
 	Conocer STS, proyectos, paquetes, clases, navegar, abrir y cerrar 
 	Definición de clase
 
-## Temas
+## Temas Java
 1. Atributos.
 	> [Tipos de datos](https://www.manualweb.net/java/tipos-datos-primitivos-java/), 
 	Que valores se deben pasar a los atributos y variables segun el tipo de dato.
@@ -41,3 +41,13 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
 3. Objectos, constructores.
 4. Arreglos, Listas.
 5. Estructuras `IF`, `FOR`, `SWITCH`.
+
+## Temas Spring Boot
+1. Anotaciones en el controlador y verbos HTTP
+    1. `@Rescontroller`
+    2. `@GetMapping`
+    3. `@PostMapping`
+    4. `@PutMapping`
+    5. `@DeleteMapping`
+2. Anotaciones para el manejo de URL cuando se tiene multiples controladores y métodos de un mismo verbo.
+3. Manejo de parametros y las anotaciones de entrada.
