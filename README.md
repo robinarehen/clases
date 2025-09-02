@@ -12,7 +12,7 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
 
 ## Temas
 1. Explicar que es git
-2. Instalacion y configuración de git, user.name y user.email
+2. Instalacion y configuración de git, `user.name` y `user.email`
 3. Primeros comandos: init, status, add, commit
 4. Ramas
 5. Github
@@ -33,8 +33,11 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
 	Conocer STS, proyectos, paquetes, clases, navegar, abrir y cerrar 
 	Definición de clase
 
-## Atributos
-[Tipos de datos](https://www.manualweb.net/java/tipos-datos-primitivos-java/)
-
-    Variables en el metodo main
-    Que valores se deben pasar a los atributos y variables segun el tipo de dato
+## Temas
+1. Atributos.
+	> [Tipos de datos](https://www.manualweb.net/java/tipos-datos-primitivos-java/), 
+	Que valores se deben pasar a los atributos y variables segun el tipo de dato.
+2. Metódos, modificadores `get` y `set`.
+3. Objectos, constructores.
+4. Arreglos, Listas.
+5. Estructuras `IF`, `FOR`, `SWITCH`.
