@@ -51,3 +51,6 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
     5. `@DeleteMapping`
 2. Anotaciones para el manejo de URL cuando se tiene multiples controladores y métodos de un mismo verbo.
 3. Manejo de parametros y las anotaciones de entrada.
+    1. @RequestParam
+    2. @PathVariable
+    3. @RequestBody
