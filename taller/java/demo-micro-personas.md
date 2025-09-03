@@ -12,5 +12,5 @@
     4. crear un método que retorne una `PersonaDto` buscando en la lista `personas` de nombre `consultarPersonaPorTipoDocumentoYDocumento`
 3. `PersonaController` y hacer lo siguientes
     1. crear un atributo de la clase `PersonaService` inicializado
-    2. crear los mismo metodos de la clase `PersonaService` y dentro de cada método llamar al método de la clase `PersonaService` con el atributo
-    3. agregar las anotaciones para que poder llamar el controller desde **Postman**
+    2. crear los mismo metodos de la clase `PersonaService` y dentro de cada método llamar al método de la clase `PersonaService` con el atributo creado anteriormente en `3.1`
+    3. agregar las anotaciones para poder llamar el controller desde **Postman**
