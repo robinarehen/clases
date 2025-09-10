@@ -54,3 +54,9 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
     1. `@RequestParam`
     2. `@PathVariable`
     3. `@RequestBody`
+4. Manejo del `CRUD` en el `service` y `controller`.
+5. Introducción al manejo de base de datos.
+    1. Dependencia `JPA` y `H2`
+    2. Configuración de las properties
+    3. Entidades
+    4. Repositorios
