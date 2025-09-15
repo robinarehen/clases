@@ -17,5 +17,5 @@
       * `actualizarPersona` que retorne un `PersonaDto` y que reciba como parametro `[id, persona]`.
       * `eliminarPersonaByDocumento` que reciba como parametro `[tipoDocumento, documento]`
 6. Crear las siguientes clases en el paquete `controller`
-    * `PersonaController` con los siguientes metodos:
+    * `PersonaController` con un atributo del tipo `PersonaService` y los mismo metodos de la clase `PersonaService` y dentro de cada metodo llamar los metodos de `PersonaService`.
     
