@@ -15,7 +15,7 @@
       * `consultarPersonaByDocumento` que retorne un objeto `PersonaDto` y reciba como parametro `[tipoDocumento, documento]`.
       * `crearPersona` que retorne un objeto `PersonaDto` y que reciba como parametro un objeto `PersonaDto`.
       * `actualizarPersona` que retorne un `PersonaDto` y que reciba como parametro `[id, persona]`.
-      * `deletePersonaByDocumento` que reciba como parametro `[tipoDocumento, documento]`
+      * `eliminarPersonaByDocumento` que reciba como parametro `[tipoDocumento, documento]`
 6. Crear las siguientes clases en el paquete `controller`
     * `PersonaController` con los siguientes metodos:
     
