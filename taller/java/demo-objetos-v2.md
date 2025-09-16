@@ -12,11 +12,10 @@
     * `PersonaService` con atributo del tipo lista `PersonaDto` inicializada y crear los siguientes metodos:
       * `consultarPersonas` que retorne una lista del tipo `PersonaDto`.
       * `consultarPersonaByDocumento` que retorne un objeto `PersonaDto` y reciba como parametro `[tipoDocumento, documento]`.
-      * `crearPersona` que retorne y reciba como parametro un objeto `PersonaDto`.
-      * `actualizarPersona` que retorne y reciba como parametro un objeto `PersonaDto`.
+      * `crearPersona` que retorne y reciba como parametro un objeto `PersonaDto` el cual se debe agregar a la lista, pero primero se debe validar que no exista.
       * `eliminarPersonaByDocumento` que reciba como parametro `[tipoDocumento, documento]`
 6. Crear las siguientes clases en el paquete `controller`
     * `PersonaController` y crear el método `main`
       * Crear un objeto de `PersonaDto` y llenar los atributos
       * Crear un objeto de `PersonaService` y con el objeto llamar al metodo `crearPersona` y pasar el objeto `PersonaDto`
-      * Con el objeto `PersonaService` llamar al metodo `crearPersona` 3 veces más y pasar un objeto `PersonaDto` si crear un objeto previo.
+      * Con el objeto `PersonaService` llamar al metodo `crearPersona` 3 veces más y pasar un objeto `PersonaDto` sin crear un objeto previo.
