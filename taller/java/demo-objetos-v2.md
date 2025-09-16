@@ -9,11 +9,14 @@
     * Una clase de nombre `UsuarioDto` con los atributos `[persona, codigoUsuario, centroTrabajo]`.
 4. En el paquete `service`, crear una clase de cada una de las clases que hay en el paquete `dto` y cambiar la terminación `Dto` por `Service`
 5. Crear las siguientes clases en el paquete `service`
-    * `PersonaService` con los siguientes metodos:
+    * `PersonaService` con atributo del tipo lista `PersonaDto` inicializada y crear los siguientes metodos:
       * `consultarPersonas` que retorne una lista del tipo `PersonaDto`.
       * `consultarPersonaByDocumento` que retorne un objeto `PersonaDto` y reciba como parametro `[tipoDocumento, documento]`.
       * `crearPersona` que retorne y reciba como parametro un objeto `PersonaDto`.
       * `actualizarPersona` que retorne y reciba como parametro un objeto `PersonaDto`.
       * `eliminarPersonaByDocumento` que reciba como parametro `[tipoDocumento, documento]`
 6. Crear las siguientes clases en el paquete `controller`
-    * `PersonaController`.
+    * `PersonaController` y crear el método `main`
+      * Crear un objeto de `PersonaDto` y llenar los atributos
+      * Crear un objeto de `PersonaService` y con el objeto llamar al metodo `crearPersona` y pasar el objeto `PersonaDto`
+      * Con el objeto `PersonaService` llamar al metodo `crearPersona` 3 veces más y pasar un objeto `PersonaDto` si crear un objeto previo.
