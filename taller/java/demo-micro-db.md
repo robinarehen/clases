@@ -18,4 +18,5 @@
       * `eliminarPersonaByDocumento` que reciba como parametro `[tipoDocumento, documento]`
 6. Crear las siguientes clases en el paquete `controller`
     * `PersonaController` con un atributo del tipo `PersonaService` y crear los mismo metodos de la clase `PersonaService`, dentro de cada metodo de la clase `PersonaController` llamar los metodos de la clase `PersonaService`.
+      * agregar las anotaciones necesarias para acceder al controlador desde **Postman** mediante los verbos HTTP
     
