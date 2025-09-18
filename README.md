@@ -60,3 +60,7 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT` y
     2. Configuración de las properties
     3. Entidades
     4. Repositorios
+    5. Relaciones entre entidades
+      * `@OneToOne`
+      * `@OneToMany`
+      * `@ManyToOne`
