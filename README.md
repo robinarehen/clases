@@ -1,4 +1,4 @@
-# Curso Java y Micro Servicios con Spring Boot
+# Curso de Java y Micro Servicios con Spring Boot
 En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT`, `Java` y `Micro Servicios con Spring Boot`
 
 ## Git
@@ -20,7 +20,7 @@ En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT`, 
 7. comandos push y pull
 8. comando merge
 
-# Configuración de Entorno
+## Configuración de Entorno Java y Spring Boot
 
 1. Programacion Orientada a Objetos con Java
 2. Bajar Aplicativos
