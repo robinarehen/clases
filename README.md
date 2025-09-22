@@ -1,5 +1,5 @@
 # Curso de Java y Micro Servicios con Spring Boot
-En este repositorio quedaran reflejadas los temas y tareas para aprender `GIT`, `Java` y `Micro Servicios con Spring Boot`
+En este repositorio quedaran reflejados los temas y tareas para aprender `GIT`, `Java` y `Micro Servicios con Spring Boot`
 
 ## Git
 	https://es.wikipedia.org/wiki/Git
