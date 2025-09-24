@@ -65,3 +65,5 @@ En este repositorio quedaran reflejados los temas y tareas para aprender `GIT`, 
       * `@OneToOne`
       * `@OneToMany`
       * `@ManyToOne`
+    6. Restricciones en las columnas
+      * `@Column...`
