@@ -61,9 +61,11 @@ En este repositorio quedaran reflejados los temas y tareas para aprender `GIT`, 
     2. Configuración de las properties
     3. Entidades
     4. Repositorios
-    5. Relaciones entre entidades
+    5. `CRUD` definición e implementación.
+    6. Relaciones entre entidades
       * `@OneToOne`
       * `@OneToMany`
       * `@ManyToOne`
-    6. Restricciones en las columnas
+    7. Restricciones en las columnas
       * `@Column...`
+    8. Que son las interfaces y ejemplos
