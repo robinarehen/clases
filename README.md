@@ -60,12 +60,12 @@ En este repositorio quedaran reflejados los temas y tareas para aprender `GIT`, 
     1. Dependencia `JPA` y `H2`
     2. Configuración de las properties
     3. Entidades
-    4. Repositorios
-    5. `CRUD` definición e implementación.
-    6. Relaciones entre entidades
+    4. Restricciones en las columnas
+      * `@Column...`
+    5. Repositorios
+    6. `CRUD` definición e implementación.
+    7. Relaciones entre entidades
       * `@OneToOne`
       * `@OneToMany`
       * `@ManyToOne`
-    7. Restricciones en las columnas
-      * `@Column...`
-    8. Que son las interfaces y ejemplos
+    8. Que son las interfaces y ejemplo.
