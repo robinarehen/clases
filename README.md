@@ -68,4 +68,5 @@ En este repositorio quedaran reflejados los temas y tareas para aprender `GIT`, 
       * `@OneToOne`
       * `@OneToMany`
       * `@ManyToOne`
-    8. Que son las interfaces y ejemplo.
+    8. Codigos HTTP con `ResponseEntity`
+    9. Que son las interfaces y ejemplo.
