@@ -14,11 +14,11 @@ En este repositorio quedaran reflejados los temas y tareas para aprender `GIT`, 
 1. Que es git
 2. Instalacion y configuración de git, `user.name` y `user.email`
 3. Primeros comandos: `[init, status, add, commit]`
-4. Ramas
+4. Ramas 
+    * comandos `[branch, checkout, switch, merge]`
 5. Github
 6. conectar repositorio local con el global
-7. comandos push y pull
-8. comando merge
+    * comandos `[push, pull]`
 
 ## Configuración de Entorno Java y Spring Boot
 
