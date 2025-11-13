@@ -1,6 +1,6 @@
 # Examen Compra Venta de Autos
 
-En todos los micros se deben crear el `CRUD` implementar `[ResponseEntity, Interfaz]` y tambien se debe crear el metodo buscar por el `campo unico` de cada micro.
+En todos los micros se debe crear el `CRUD`, implementar `[ResponseEntity, Interfaz]` y tambien se debe crear el metodo buscar por el `campo unico` de cada micro.
 
 > El DTO no debe retonar el ID de la base de datos.
 
@@ -9,7 +9,7 @@ crear un micro de nombre `demo-micro-autos` del cual se deben guardar en la base
 
 1. marca: no puede ser nulo
 2. modelo: no puede ser nulo
-3. ano de matriculacion: no puede ser nulo
+3. año de matriculacion: no puede ser nulo
 4. matricula: debe ser unico y no puede ser nulo
 
 ## Micro Clientes
