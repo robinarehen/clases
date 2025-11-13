@@ -17,7 +17,7 @@ crear un micro de nombre `demo-micro-cliente` del cual se deben guardar en la ba
 
 1. nombres: no puede ser nulo
 2. primer apellido: no puede sr nulo
-3. segudno apellido
+3. segundo apellido
 3. codigo cliente: debe ser unico y no puede ser nulo
 
 ## Micro Vendedores
@@ -25,5 +25,5 @@ crear un micro de nombre `demo-micro-vendedores` del cual se deben guardar en la
 
 1. nombres: no puede ser nulo
 2. primer apellido: no puede sr nulo
-3. segudno apellido
+3. segundo apellido
 3. codigo Vendedor: debe ser unico y no puede ser nulo
