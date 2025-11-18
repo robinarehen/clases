@@ -27,3 +27,7 @@ crear un micro de nombre `demo-micro-vendedores` del cual se deben guardar en la
 2. primer apellido: no puede sr nulo
 3. segundo apellido
 3. codigo Vendedor: debe ser unico y no puede ser nulo
+
+## Micro Compra Venta de Coche
+crear un micro de nombre `demo-micro-compraventa-coches`, en el cual la meta es conectar con los micros anterirores, para confirmar que el cliente, el vendedor y el auto existen previamente antes de registrar la venta.
+
